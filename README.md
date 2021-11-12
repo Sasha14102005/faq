@@ -26,9 +26,23 @@ git commit -m "..."
 ```bash
 git push
 ```
+### Принять все изменения:
+```bash
+git pull
+```
 
 # Ссылки на софт:
 ### Git:
 [https://git-scm.com/](https://git-scm.com/)
 ### VS Code
 [https://code.visualstudio.com/](https://code.visualstudio.com/)
+### SublimeText 3
+[sublimetext.com](https://www.sublimetext.com/3)
+
+# Технологии:
+### БЭМ методология:
+[bem.info](https://ru.bem.info/methodology/)
+
+# Ресурсы:
+### Шрифты:
+[fonts.google](https://fonts.google.com/)
