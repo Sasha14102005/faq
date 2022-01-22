@@ -10,9 +10,60 @@ html, body {
 }
 
 .Landing {
-
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-wrap: nowrap
 }
 
 .Landing_section {
-
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
+
+.Landing_section_blue {
+    background-color: #002460;
+    color: white;
+}
+
+.Section {
+    width: 940px;
+}
+
+.Section_p-56 {
+    padding: 56px;
+}
+
+.Section_p-72 {
+    padding: 72px;
+}
+
+.Section_title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #002460;
+}
+
+.Section_header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.Header_menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Menu_
