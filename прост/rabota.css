@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+
+.kvadrat_1 {
+    height: 200px;
+    width: 500px;
+    border: 15px solid blue;
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kvadrat_2 {
+    width: 220px;
+    height: 150px;
+    border: 10px solid red;
+
+}
+
+.kvadrat_3 {
+    width: 220px;
+    height: 150px;
+    border: 10px solid yellow;
+
+}
