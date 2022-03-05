@@ -5,31 +5,31 @@
 }
 body {
     display: flex;
-    justify-content: center;
-    align-items: center;
     background: black;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
 }
 
 
 .kvadrat {
-    height: 250px;
-    width: 200px;
-    border: 15px solid blue;
-    margin-top: 15%;
+    height: 50px;
+    width: 400px;
+    border: 8px solid blue;
+    margin-top: 5%;
+    
 }
 
 .kvadrat_2 {
-    height: 250px;
-    width: 200px;
+    height: 200px;
+    width: 400px;
     border: 15px solid blue;
-    margin-top: 15%;
-    margin-left: 1%;
+    margin-top: 5%;
 }
 
 .kvadrat_3 {
-    height: 250px;
-    width: 200px;
-    border: 15px solid blue;
-    margin-top: 15%;
-    margin-left: 1%;
+    height: 100px;
+    width: 400px;
+    border: 50px solid blue;
+    margin-top: 5%;
 }
