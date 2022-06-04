@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+
+}
+
+.vse {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(245, 184, 52);
+}
+
+.wrapper1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.content {
+    height: 100%;
+    width: 970px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+
+.slider1 {
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(246, 191, 89);
+    border-radius: 15px;
+}
+
+.menu {
+    height: 72px;
+    width: 970px;
+    display: flex;
+    flex-direction: row;
+       justify-content: space-between;
+       align-items: center;
+       flex-wrap: nowrap;   
+   }
+   
+   
+   .logo {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   align-items: center;
+   font-size: 25px;
+   font-weight: 800;
+   color: black;
+   margin-left: 30px;
+   margin-top: 25px;
+   
+   }
+   
+   .list{
+       display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   align-items: center;
+   }
+   
+   .link {
+       margin-top: 25px;
+       margin-right: 25px;
+       color: black;
+       text-decoration: none;
+       font-size: 20px;
+   }
+
+.wrapper2 {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.info {
+    margin-left: 100px;
+    margin-top: 200px;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+.nachalo {
+    font-size: 60px;
+}
+.dva {
+    margin-top: 20px;
+    background-color: black;
+    border-radius: 20px;
+    font-size: 30px;
+    color: white;
+}
+.dva1 {
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+
+.image { 
+    width: 460px;
+    height: 460px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tri {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center; 
+}
